@@ -44,7 +44,7 @@
     <property name="java.class.path" value="/home/gitpod/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.home" value="/home/gitpod/.sdkman/candidates/java/11.0.17.fx-zulu"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,15 +61,15 @@
     <property name="java.vendor.version" value="Zulu11.60+19-CA"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ListExerciseTest" name="getSizeTest1" time="0.002"/>
+  <testcase classname="ListExerciseTest" name="getSizeTest1" time="0.003"/>
   <testcase classname="ListExerciseTest" name="getSizeTest2" time="0"/>
   <testcase classname="ListExerciseTest" name="removeFromListTest1" time="0"/>
   <testcase classname="ListExerciseTest" name="removeFromListTest2" time="0"/>
   <testcase classname="ListExerciseTest" name="updatePositionTest1" time="0"/>
   <testcase classname="ListExerciseTest" name="updatePositionTest2" time="0"/>
   <testcase classname="ListExerciseTest" name="createListTest1" time="0"/>
-  <testcase classname="ListExerciseTest" name="addItemTest1" time="0.001"/>
-  <testcase classname="ListExerciseTest" name="addItemTest2" time="0"/>
-  <testcase classname="ListExerciseTest" name="getItemTest1" time="0.001"/>
+  <testcase classname="ListExerciseTest" name="addItemTest1" time="0"/>
+  <testcase classname="ListExerciseTest" name="addItemTest2" time="0.001"/>
+  <testcase classname="ListExerciseTest" name="getItemTest1" time="0"/>
   <testcase classname="ListExerciseTest" name="getItemTest2" time="0"/>
 </testsuite>
